@@ -1,10 +1,14 @@
+// Grabs all the images that will be transited through at the top of the page
 const slides = document.getElementsByClassName('carousel-image');
+
+// Used to update opacity on mouse over/leave
 const startLogo = document.getElementById('start-image');
 const boxDesc = document.getElementById('box-desc');
 const boxPic = document.getElementById('box-pic');
 const header = document.getElementById('header');
 
 let slideIndex = 0;
+
 
 function showSlides() {
   if (slideIndex > slides.length - 1) {

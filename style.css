@@ -23,17 +23,18 @@
 #start-logo {
   position: absolute;
   left: 45vw;
-  top: 10vh;
+  top: 30vh;
   z-index: 2;
 }
 
 #carousel-text {
   position: absolute;
-  left: 44vw;
-  top: 50vh;
+  left: 40vw;
+  top: 60vh;
   z-index: 2;
   color: white;
   text-shadow: 2px 2px black;
+  font-size: x-large;
 }
 
 header {
@@ -104,6 +105,7 @@ header * {
 .flex p {
   animation: slideleft 3s;
 }
+
 
 #box-desc {
   transition: all 2s;
